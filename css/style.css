@@ -42,7 +42,13 @@ p {
 a {
 
 }
-
+/* Logo */
+#logo {
+    position: fixed;
+    top: 24px;
+    left: 40px;
+    font: size 32px;
+}
 /* Nav */
 #nav {
 position:absolute;
@@ -71,4 +77,21 @@ right: 20px;
 /* Page Layout */
 .section {
   min-height: 100vh;
+}
+
+#heroText {
+    margin-top: 40vh;
+}
+
+#bio {
+    background-image: url('../images/bio-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.caseStudy {
+    background-color: purple;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
 }
